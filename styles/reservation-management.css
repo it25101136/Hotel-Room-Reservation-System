@@ -1,0 +1,210 @@
+/* ====================================================
+ * Member 2 — Reservation Management Styles
+ * ==================================================== */
+
+.res-mgmt {
+  background: linear-gradient(180deg, #0A0A0A 0%, #111 100%);
+  color: #fff;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.res-mgmt__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #D4A853;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.res-mgmt__subtitle {
+  text-align: center;
+  color: #999;
+  font-size: 0.875rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.res-tabs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.res-tab {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: 1px solid rgba(212, 168, 83, 0.3);
+  color: #D4A853;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.res-tab:hover { background: rgba(212, 168, 83, 0.1); transform: translateY(-2px); }
+.res-tab--active { background: #D4A853; color: #000; }
+
+.res-form {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 168, 83, 0.2);
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.res-form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .res-form__row { grid-template-columns: 1fr; }
+}
+
+.res-form__field { margin-bottom: 1.25rem; }
+
+.res-form__label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.res-form__input,
+.res-form__select {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 1rem;
+  color: #fff;
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+
+.res-form__input:focus,
+.res-form__select:focus {
+  outline: none;
+  border-color: #D4A853;
+  box-shadow: 0 0 0 3px rgba(212, 168, 83, 0.15);
+}
+
+.res-form__btn {
+  width: 100%;
+  background: #D4A853;
+  color: #000;
+  padding: 0.875rem;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.res-form__btn:hover {
+  background: #E8C872;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(212, 168, 83, 0.3);
+}
+
+/* Reservation list table */
+.res-table-wrap {
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 168, 83, 0.15);
+}
+
+.res-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.res-table thead {
+  background: rgba(212, 168, 83, 0.1);
+}
+
+.res-table th {
+  padding: 1rem;
+  text-align: left;
+  color: #D4A853;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  border-bottom: 2px solid rgba(212, 168, 83, 0.3);
+}
+
+.res-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.875rem;
+}
+
+.res-table tr:hover {
+  background: rgba(212, 168, 83, 0.05);
+  transition: 0.3s;
+}
+
+.res-status {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.res-status--confirmed   { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+.res-status--cancelled   { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+.res-status--checked_in  { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+.res-status--checked_out { background: rgba(156, 163, 175, 0.2); color: #d1d5db; }
+
+.res-source {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  background: rgba(212, 168, 83, 0.15);
+  color: #D4A853;
+  border-radius: 3px;
+  letter-spacing: 0.1em;
+}
+
+.res-action-btn {
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.25rem;
+  background: transparent;
+  border: 1px solid rgba(212, 168, 83, 0.4);
+  color: #D4A853;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.res-action-btn:hover { background: #D4A853; color: #000; }
+.res-action-btn--danger { border-color: rgba(239, 68, 68, 0.4); color: #f87171; }
+.res-action-btn--danger:hover { background: #ef4444; color: #fff; }
+
+.res-summary {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(212, 168, 83, 0.05);
+  border: 1px solid rgba(212, 168, 83, 0.2);
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: #D4A853;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
