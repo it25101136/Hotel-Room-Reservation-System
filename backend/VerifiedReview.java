@@ -1,4 +1,4 @@
-package models;
+package services;
 
 /** Verified review — backed by an actual reservation; auto-approved. */
 public class VerifiedReview extends Review {

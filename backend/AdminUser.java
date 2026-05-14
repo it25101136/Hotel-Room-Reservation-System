@@ -1,4 +1,4 @@
-package models;
+package services;
 
 /**
  * Component 05 — Admin Management.

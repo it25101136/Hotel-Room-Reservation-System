@@ -7,11 +7,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="backend" />
     <orderEntry type="module" module-name="member-4-payment-management" />
-    <orderEntry type="module" module-name="member-3-customer-management" />
-    <orderEntry type="module" module-name="members" />
-    <orderEntry type="module" module-name="member-6-service-management" />
     <orderEntry type="module" module-name="member-2-reservation-management" />
+    <orderEntry type="module" module-name="member-6-service-management" />
+    <orderEntry type="module" module-name="member-3-customer-management" />
+    <orderEntry type="module" module-name="backend" />
+    <orderEntry type="module" module-name="members" />
   </component>
 </module>
