@@ -1,0 +1,294 @@
+/* ====================================================
+ * Member 5 — Review Management Styles
+ * ==================================================== */
+
+.rev-mgmt {
+  background: linear-gradient(180deg, #0A0A0A 0%, #0D0D0D 100%);
+  color: #fff;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.rev-mgmt__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #D4A853;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.rev-mgmt__subtitle {
+  text-align: center;
+  color: #999;
+  font-size: 0.875rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.rev-tabs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.rev-tab {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: 1px solid rgba(212, 168, 83, 0.3);
+  color: #D4A853;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rev-tab:hover { background: rgba(212, 168, 83, 0.1); }
+.rev-tab--active { background: #D4A853; color: #000; }
+
+/* Average rating header */
+.rev-avg {
+  text-align: center;
+  background: rgba(212, 168, 83, 0.05);
+  border: 1px solid rgba(212, 168, 83, 0.2);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+}
+
+.rev-avg__num {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  color: #D4A853;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.rev-avg__stars {
+  font-size: 1.5rem;
+  color: #D4A853;
+  margin: 0.5rem 0;
+  letter-spacing: 0.2em;
+}
+
+.rev-avg__count {
+  color: #999;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* Review cards */
+.rev-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.5rem;
+}
+
+.rev-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 168, 83, 0.2);
+  padding: 1.5rem;
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.rev-card:hover {
+  transform: translateY(-5px);
+  border-color: #D4A853;
+  box-shadow: 0 15px 40px rgba(212, 168, 83, 0.1);
+}
+
+.rev-card--verified::before {
+  content: '✓ VERIFIED';
+  position: absolute;
+  top: 0; right: 0;
+  background: linear-gradient(135deg, #D4A853, #E8C872);
+  color: #000;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.rev-card--pending {
+  border-style: dashed;
+  opacity: 0.7;
+}
+
+.rev-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.rev-card__user {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.rev-card__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(212, 168, 83, 0.2);
+  border: 1px solid rgba(212, 168, 83, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D4A853;
+  font-weight: bold;
+}
+
+.rev-card__name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.rev-card__date {
+  color: #999;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.rev-card__stars {
+  color: #D4A853;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5rem;
+}
+
+.rev-card__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.125rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.rev-card__text {
+  color: #ccc;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.rev-card__room {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: rgba(212, 168, 83, 0.1);
+  color: #D4A853;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.75rem;
+  border-radius: 3px;
+}
+
+.rev-card__actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.rev-card__btn {
+  flex: 1;
+  padding: 0.4rem;
+  border: 1px solid rgba(212, 168, 83, 0.4);
+  background: transparent;
+  color: #D4A853;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rev-card__btn:hover { background: #D4A853; color: #000; }
+.rev-card__btn--ok { border-color: rgba(34, 197, 94, 0.4); color: #4ade80; }
+.rev-card__btn--ok:hover { background: #22c55e; color: #fff; }
+.rev-card__btn--del { border-color: rgba(239, 68, 68, 0.4); color: #f87171; }
+.rev-card__btn--del:hover { background: #ef4444; color: #fff; }
+
+/* Submit form */
+.rev-form {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 168, 83, 0.2);
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rev-form__field { margin-bottom: 1.25rem; }
+.rev-form__label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.rev-form__input,
+.rev-form__textarea {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 1rem;
+  color: #fff;
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+
+.rev-form__input:focus,
+.rev-form__textarea:focus {
+  outline: none;
+  border-color: #D4A853;
+}
+
+.rev-form__star-input {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+
+.rev-form__star {
+  cursor: pointer;
+  color: #555;
+  transition: 0.2s;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.rev-form__star--active,
+.rev-form__star:hover { color: #D4A853; transform: scale(1.1); }
+
+.rev-form__btn {
+  width: 100%;
+  background: #D4A853;
+  color: #000;
+  padding: 0.875rem;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rev-form__btn:hover {
+  background: #E8C872;
+  transform: translateY(-2px);
+}
