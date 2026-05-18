@@ -1,0 +1,6 @@
+# MEMBER 5 - Review Management
+# Data Storage: backend/data/reviews.txt
+
+1|1|101|5|Absolutely stunning!|Best stay I've ever had at the Galle Face.|2026-01-15|true|VERIFIED|1001
+2|2|201|5|Royal treatment|The Executive Suite exceeded expectations.|2026-01-20|true|VERIFIED|1002
+3|3|301|4|Very good experience|Loved the spa and dining options.|2026-02-01|false|PUBLIC
