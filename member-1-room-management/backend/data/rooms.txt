@@ -1,0 +1,9 @@
+# MEMBER 1 - Room Management
+# Data Storage: backend/data/rooms.txt
+
+101|Deluxe|150000|true|Elegant Deluxe Room with city view
+102|Deluxe|150000|true|Elegant Deluxe Room with garden view
+201|Suite|280000|true|Executive Suite with separate living area
+202|Suite|280000|true|Executive Suite with butler service
+301|Suite|850000|true|Presidential Suite with private terrace
+1|Standard|75000|true|Standard Room with all basic amenities
