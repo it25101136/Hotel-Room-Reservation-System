@@ -1,5 +1,0 @@
-# MEMBER 6 - Customer Service Requests
-# Data Storage: backend/data/customer_services.txt
-
-1|1|1001|1|1|115500|DELIVERED
-2|2|1002|6|4|48000|CONFIRMED
