@@ -1,6 +1,0 @@
-# MEMBER 5 - Admin Management
-# Data Storage: backend/data/admins.txt
-
-1|admin|admin123|System Administrator|admin@aurumhotel.lk|+94 11 244 5555|FULL
-2|moderator1|mod123|Sandali Wickrama|sandali@aurumhotel.lk|+94 71 222 3344|MODERATOR
-3|viewer1|view123|Ranga Bandara|ranga@aurumhotel.lk|+94 76 555 8899|VIEWER

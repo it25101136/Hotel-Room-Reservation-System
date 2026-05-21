@@ -1,6 +1,0 @@
-# MEMBER 3 - Customer Management
-# Data Storage: backend/data/customers.txt
-
-1|amal|1234|Amal Perera|amal@example.lk|+94 77 123 4567|123, Galle Road, Colombo 03|REGULAR
-2|nimali|5678|Nimali Silva|nimali@example.lk|+94 71 987 6543|45, Marine Drive, Mount Lavinia|VIP
-3|kasun|abcd|Kasun Fernando|kasun@example.lk|+94 76 555 1234|12, Temple Road, Kandy|REGULAR
