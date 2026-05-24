@@ -1,0 +1,4 @@
+101|deluxe|150000|false|City View
+102|deluxe|150000|true|Garden View
+201|suite|280000|false|Ocean View
+301|suite|850000|false|Panoramic View
