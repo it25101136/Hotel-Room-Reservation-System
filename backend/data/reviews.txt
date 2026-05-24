@@ -1,0 +1,3 @@
+1|114|301|5|Feedback|Exceptional suite, impeccable service.|2026-05-24|true|PUBLIC
+2|233|102|4|Feedback|Very elegant stay, breakfast was excellent.|2026-05-24|false|PUBLIC
+3|1|201|3|Feedback|Service was good, but room prep was delayed.|2026-05-24|false|PUBLIC
