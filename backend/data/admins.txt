@@ -1,7 +1,0 @@
-1|systemadministrator|admin123|System Administrator|admin@aurumhotel.lk|+94 11 244 5555|FULL
-2|roomsmanager|room123|Rooms Manager|room@aurumhotel.lk|+94 11 244 5555|ROOMS
-3|reservationsmanager|Reservation123|Reservations Manager|reservation@aurumhotel.lk|+94 11 244 5555|RESERVATIONS
-4|customersmanager|Customer123|Customers Manager|customer@aurumhotel.lk|+94 11 244 5555|CUSTOMERS
-5|paymentsmanager|Payment123|Payments Manager|payment@aurumhotel.lk|+94 11 244 5555|PAYMENTS
-6|reviewsmanager|Reviews123|Reviews Manager|reviews@aurumhotel.lk|+94 11 244 5555|REVIEWS
-7|servicesmanager|Facilities123|Services Manager|facilities@aurumhotel.lk|+94 11 244 5555|SERVICES
