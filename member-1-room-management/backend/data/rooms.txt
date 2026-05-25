@@ -1,0 +1,19 @@
+# ==========================================
+# ROOM DATA FILE (Pipe-Separated Format)
+# ==========================================
+# Each line represents one room record.
+# Format:
+# RoomID | Type | Price | Availability | View
+# ==========================================
+
+
+101|deluxe|150000|false|City View
+102|deluxe|150000|false|Garden View
+201|suite|280000|false|Ocean View
+301|suite|850000|false|Panoramic View
+402|deluxe|145000|true|City View
+
+
+# ==========================================
+# This is a structured text file using '|' as a delimiter
+
