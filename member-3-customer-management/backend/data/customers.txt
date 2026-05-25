@@ -1,0 +1,7 @@
+114|nimalisilva|nimali123|Nimali Silva|nimali@aurum.lk|+94 11 244 5555|Galle Face, Colombo|VIP
+233|amalperera|amal123|Amal Perera|amal@aurum.lk|+94 11 244 5555|Galle Face, Colombo|REGULAR
+1|aurumguest|guest123|Aurum Guest|guest@aurumhotel.lk|+94 11 244 5555|Galle Face, Colombo|REGULAR
+2|aurumvip|vip123|Aurum VIP|vip@aurumhotel.lk|+94 11 244 5555|Galle Face, Colombo|VIP
+19|chenuldissanayake|123|Chenul Dissanayake|Chenul@gmail.com|+94 11 244 5555|Galle Face, Colombo|REGULAR
+492|yehenmrapana|1234|Yehen Mrapana|Yehen@gmail.com|+94 11 244 5555|Galle Face, Colombo|REGULAR
+23|shenonkodagoda|abcdefg|shenon kodagoda|shenon@gmail.com|+94 11 244 5555|Galle Face, Colombo|REGULAR
