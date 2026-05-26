@@ -1,0 +1,4 @@
+1|Royal Gold Facial|92000|false|Royal Gold Facial Service|SPA|PREMIUM
+2|Airport Pickup|18000|true|Airport Pickup Service|TRANSPORT|BASIC
+3|Breakfast Buffet|12000|true|Breakfast Buffet Service|DINING|BASIC
+4|Infinity Pool Access|18000|false|Infinity Pool Access Service|LEISURE|BASIC
